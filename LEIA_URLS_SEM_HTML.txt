@@ -1,0 +1,13 @@
+V165 — ENDEREÇOS SEM .HTML
+
+1. Extraia este ZIP.
+2. Substitua todos os arquivos do projeto do site, incluindo vercel.json.
+3. Publique novamente na Vercel.
+
+A página inicial fica em /. As demais páginas ficam em /vagas, /empresa, /curriculos etc. Os endereços antigos com .html redirecionam automaticamente.
+
+Os arquivos continuam com os nomes .html dentro da pasta; é a Vercel que remove a extensão no endereço. Para testar esses endereços, publique na Vercel. Abrir os arquivos diretamente no computador não testa essa configuração.
+
+ads.txt, robots.txt, sitemap.xml e o arquivo HTML de verificação do Google foram preservados.
+
+O menu e a correção do contador da V164 foram mantidos. O código Apps Script já publicado não precisa ser alterado por causa dos endereços.

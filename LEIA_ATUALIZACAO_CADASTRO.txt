@@ -1,0 +1,21 @@
+ATIVAR A CORREÇÃO DO CONTADOR — V164
+
+1. Abra o projeto Google Apps Script que recebe os currículos.
+2. Faça uma cópia do Código.gs atual e substitua o conteúdo pelo arquivo Codigo_Cadastro_Reserva_CORRIGIDO.txt enviado com esta atualização.
+3. Salve. Vá em Implantar > Gerenciar implantações. Selecione a implantação atual do aplicativo da Web, clique no lápis, escolha Nova versão e clique em Implantar. Mantenha a URL atual terminada em /exec.
+4. Publique os arquivos deste ZIP no seu site, substituindo os antigos.
+5. Faça um envio de teste com um currículo de teste e confirme: uma linha nova na planilha, um arquivo novo no Drive e aumento de exatamente 1 no cargo escolhido. Abra em outro navegador para conferir o mesmo total.
+
+Não execute zerarContadoresVagas para aplicar esta correção. Os currículos e registros existentes são preservados, inclusive a base de zeragem anterior, se houver.
+
+O contador agora consulta os registros da planilha em vez de reutilizar contagens antigas. Cada linha salva representa um envio. Dois currículos enviados pela mesma pessoa contam como dois envios.
+
+O formulário só confirma sucesso e marca o botão depois da confirmação explícita do servidor. Uma página de erro ou o simples carregamento do iframe não contam como envio. Em caso de demora, o site informa que o resultado não foi confirmado: confira o e-mail e a planilha antes de reenviar.
+
+A planilha encontrada é fixada na propriedade CADASTRO_PLANILHA_ID. Se houver mais de uma planilha com o nome Cadastro Reserva - Dados, defina essa propriedade manualmente no Apps Script com o ID da planilha correta (trecho entre /d/ e /edit no endereço da planilha).
+
+Validação local com serviços simulados: cargo novo 0→1→2; cargos independentes; cache antigo ignorado; base anterior preservada; falha de validação e falha ao gravar não aumentam o contador; falha no e-mail não anula cadastro salvo; resposta inválida não marca envio; scripts HTML verificados.
+
+O código ainda precisa ser implantado e validado no seu ambiente Google. Nenhum currículo real foi enviado durante os testes.
+
+Documentação de implantação: https://developers.google.com/apps-script/concepts/deployments

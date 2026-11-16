@@ -1,0 +1,36 @@
+EMPREGO TODO DIA IGUATU - INTEGRAÇÃO OPCIONAL LINKVERTISE
+======================================================
+A página "materiais-complementares.html" já está pronta no visual do portal.
+Neste pacote, nenhum link Linkvertise foi ativado, pois você não enviou o endereço da publicação criada.
+
+COMO ATIVAR EM 3 PASSOS
+1) No Linkvertise, abra a publicação que você criou e escolha Compartilhar/Copiar link.
+2) Abra o arquivo assets/linkvertise-config.js neste pacote.
+3) Entre as aspas após url: cole o link real, assim:
+   url: "https://linkvertise.com/SEU-LINK-REAL",
+   Salve e publique os arquivos atualizados na Vercel.
+
+O botão externo aparecerá automaticamente na página Materiais complementares.
+Se o link estiver vazio ou não usar um domínio esperado do Linkvertise, o botão ficará oculto.
+Teste o endereço em uma janela anônima antes de divulgá-lo.
+
+PRECAUÇÕES
+- Não altere links normais de vagas, candidaturas ou navegação para links monetizados.
+- Não instale scripts de redirecionamento automático nem sistemas que convertam todos os links.
+- O conteúdo gratuito do portal continua disponível sem passar por publicidade.
+- Links externos de monetização precisam ser opcionais e identificados.
+- AdSense pode avaliar a experiência como um todo; nenhuma mudança garante aprovação.
+- Se o link real tiver domínio diferente de linkvertise.com ou link-to.net, revise-o antes de editar a validação.
+- Não compartilhe sua senha, dados bancários ou informações privadas da conta.
+
+ARQUIVOS MODIFICADOS
+index.html (card e rodapé)
+assets/site.css (estilos da seção)
+sitemap.xml (nova página)
+
+ARQUIVOS NOVOS
+materiais-complementares.html
+assets/linkvertise-config.js
+COMO_ATIVAR_LINKVERTISE.txt
+
+A pasta inclui o site completo, sem o ZIP antigo duplicado dentro do pacote.

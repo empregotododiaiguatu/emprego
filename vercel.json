@@ -1,0 +1,216 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ],
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/analisador-curriculo",
+      "destination": "/analisador-curriculo.html"
+    },
+    {
+      "source": "/anunciar-vaga",
+      "destination": "/anunciar-vaga.html"
+    },
+    {
+      "source": "/cadastro-reserva",
+      "destination": "/cadastro-reserva.html"
+    },
+    {
+      "source": "/calculadora-rescisao",
+      "destination": "/calculadora-rescisao.html"
+    },
+    {
+      "source": "/calculadora-trabalhista",
+      "destination": "/calculadora-trabalhista.html"
+    },
+    {
+      "source": "/calculadora-trabalhista-rescisao",
+      "destination": "/calculadora-trabalhista-rescisao.html"
+    },
+    {
+      "source": "/calculos-trabalhistas",
+      "destination": "/calculos-trabalhistas.html"
+    },
+    {
+      "source": "/candidato",
+      "destination": "/candidato.html"
+    },
+    {
+      "source": "/carta-apresentacao",
+      "destination": "/carta-apresentacao.html"
+    },
+    {
+      "source": "/central-carreira",
+      "destination": "/central-carreira.html"
+    },
+    {
+      "source": "/central-v109",
+      "destination": "/central-v109.html"
+    },
+    {
+      "source": "/contato",
+      "destination": "/contato.html"
+    },
+    {
+      "source": "/curriculo-basico",
+      "destination": "/curriculo-basico.html"
+    },
+    {
+      "source": "/curriculo-intermediario",
+      "destination": "/curriculo-intermediario.html"
+    },
+    {
+      "source": "/curriculo-que-funciona",
+      "destination": "/curriculo-que-funciona.html"
+    },
+    {
+      "source": "/curriculo-simples",
+      "destination": "/curriculo-simples.html"
+    },
+    {
+      "source": "/curriculos",
+      "destination": "/curriculos.html"
+    },
+    {
+      "source": "/cursos-gratuitos",
+      "destination": "/cursos-gratuitos.html"
+    },
+    {
+      "source": "/editais-ceara",
+      "destination": "/editais-ceara.html"
+    },
+    {
+      "source": "/empresa",
+      "destination": "/empresa.html"
+    },
+    {
+      "source": "/entrevista-emprego-preparacao",
+      "destination": "/entrevista-emprego-preparacao.html"
+    },
+    {
+      "source": "/exclusao-de-dados",
+      "destination": "/exclusao-de-dados.html"
+    },
+    {
+      "source": "/feedback",
+      "destination": "/feedback.html"
+    },
+    {
+      "source": "/guia-curriculo",
+      "destination": "/guia-curriculo.html"
+    },
+    {
+      "source": "/guia-entrevista",
+      "destination": "/guia-entrevista.html"
+    },
+    {
+      "source": "/guia-vagas-seguras",
+      "destination": "/guia-vagas-seguras.html"
+    },
+    {
+      "source": "/ligue-agora",
+      "destination": "/ligue-agora.html"
+    },
+    {
+      "source": "/materiais-complementares",
+      "destination": "/materiais-complementares.html"
+    },
+    {
+      "source": "/oportunidades-locais",
+      "destination": "/oportunidades-locais.html"
+    },
+    {
+      "source": "/plano-sete-dias",
+      "destination": "/plano-sete-dias.html"
+    },
+    {
+      "source": "/politica-de-cookies",
+      "destination": "/politica-de-cookies.html"
+    },
+    {
+      "source": "/politica-de-privacidade",
+      "destination": "/politica-de-privacidade.html"
+    },
+    {
+      "source": "/politica-editorial",
+      "destination": "/politica-editorial.html"
+    },
+    {
+      "source": "/primeiro-emprego-iguatu",
+      "destination": "/primeiro-emprego-iguatu.html"
+    },
+    {
+      "source": "/publicidade-whatsapp",
+      "destination": "/publicidade-whatsapp.html"
+    },
+    {
+      "source": "/seguranca-candidato",
+      "destination": "/seguranca-candidato.html"
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos.html"
+    },
+    {
+      "source": "/simulador-entrevista",
+      "destination": "/simulador-entrevista.html"
+    },
+    {
+      "source": "/sobre",
+      "destination": "/sobre.html"
+    },
+    {
+      "source": "/termos",
+      "destination": "/termos.html"
+    },
+    {
+      "source": "/teste-perfil",
+      "destination": "/teste-perfil.html"
+    },
+    {
+      "source": "/vagas",
+      "destination": "/vagas.html"
+    },
+    {
+      "source": "/vagas-verificadas",
+      "destination": "/vagas-verificadas.html"
+    },
+    {
+      "source": "/whatsapp",
+      "destination": "/whatsapp.html"
+    }
+  ]
+}

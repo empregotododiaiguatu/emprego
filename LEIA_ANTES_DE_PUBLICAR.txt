@@ -1,0 +1,13 @@
+V154 — Emprego Todo Dia Iguatu — 30/10/2026
+
+Base: pacote V153 fornecido pelo usuário.
+Ajustes: esclarecimento do prazo de 48 horas contado da confirmação de encerramento da vaga, distinção explícita dos prazos de tratamento de dados, manutenção do aviso de Cadastro Reserva destacado.
+
+ANTES DE PUBLICAR NA VERCEL:
+1. Faça deploy de prévia do conteúdo deste ZIP na raiz do projeto.
+2. Teste cadastro e contato de ponta a ponta, em celular e desktop.
+3. Verifique anúncios reais e datas de encerramento.
+4. Confirme ads.txt, sitemap.xml, robots.txt e Search Console.
+5. Confira conformidade da política de privacidade com o tratamento real de dados.
+
+A auditoria local não garante aprovação pelo Google AdSense nem comprova o funcionamento de serviços externos.

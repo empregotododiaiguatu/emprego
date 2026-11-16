@@ -1,0 +1,15 @@
+EMPReGO TODO DIA IGUATU — V161 — CÁLCULOS TRABALHISTAS 2026
+
+Arquivos modificados: calculadora-trabalhista-rescisao.html; calculos-trabalhistas.html; assets/calculadora-identidade.css.
+Demais arquivos do portal mantidos.
+
+Atualizações legais: INSS 2026 progressivo (7,5%, 9%, 12%, 14%; teto R$ 8.475,55); IRRF 2026 (faixas 2.428,80 / 2.826,65 / 3.751,05 / 4.664,68, dedução simplificada de R$ 607,20, dependente de R$ 189,59, redução para rendimentos até R$ 7.350, inclusive 13º); cálculo de saldo, férias, 13º, FGTS e aviso conforme hipóteses típicas de rescisão CLT.
+
+FONTES OFICIAIS:
+https://www.gov.br/previdencia/pt-br/noticias/2026/janeiro/beneficios-com-valor-acima-do-salario-minimo-sao-reajustados-em-3-9
+https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026
+https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-orienta-fontes-pagadoras-e-contribuintes-a-calcular-a-reducao-do-imposto-de-renda-a-partir-de-1o-de-janeiro-de-2026
+https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/proteja/duvidas-frequentes
+https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/malha-fiscal/antecipacao/rendimentos-recebidos-de-empresa/fui-demitido
+
+ATENÇÃO: não é sistema oficial de folha ou TRCT. Não cobre todas as espécies de contrato, incidências múltiplas, detalhes de convenções coletivas, histórico real de FGTS, deduções especiais e remunerações de outros vínculos ou já pagas no mês. Deve ser revisado com profissional em casos reais. Desligamentos fora do ano de 2026 não são calculados nesta versão para evitar uso de tabelas incorretas.

@@ -1,0 +1,17 @@
+V166 - CORRECAO DE ROTAS / INDEXACAO
+
+Causa confirmada: /vagas exibia pagina 404 na versao publicada.
+Mudanca: URLs .html passam a ser canonicas; cleanUrls desligado; rotas sem extensao recebem rewrites para paginas HTML correspondentes.
+Sitemap e links HTML internos atualizados para .html.
+AdSense, ads.txt, imagens, CSS, JS e conteudo editorial preservados.
+
+IMPORTANTE: nao e possivel confirmar que o deploy corrigiu a falha ate testar a versao publicada.
+
+1. Publicar este ZIP EXTRAIDO como raiz do projeto Vercel.
+2. Verificar https://www.empregotododiaiguatu.com.br/vagas.html (200 e pagina de vagas)
+3. Verificar https://www.empregotododiaiguatu.com.br/vagas (pagina de vagas via rewrite, sem 404)
+4. Verificar sitemap.xml e ads.txt.
+5. Search Console: inspecionar URL /vagas.html, solicitar indexacao, depois validar correcao de redirecionamento se exemplos resolvidos.
+6. AdSense: nenhuma garantia de aprovacao; analisar politicas e conteudo separadamente.
+
+HTMLs ajustados: 45. Rewrites: 44.

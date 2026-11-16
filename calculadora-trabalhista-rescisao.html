@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<!-- V161: Simulador trabalhista CLT com tabelas oficiais de INSS e IRRF 2026. --><html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Trabalhista e de Rescisão | Emprego Todo Dia Iguatu</title>
+<meta name="description" content="Calculadora Trabalhista e de Rescisão gratuita para estimar férias, 13º, horas extras, FGTS, aviso prévio e verbas de rescisão CLT em Iguatu."/>
+<meta name="google-adsense-account" content="ca-pub-7768202536618144"/>
+<link rel="canonical" href="https://www.empregotododiaiguatu.com.br/calculadora-trabalhista-rescisao.html"/>
+<link rel="stylesheet" href="assets/site.css?v=158"/>
+<link rel="stylesheet" href="assets/calculadora-identidade.css?v=161"/>
+</head><body class="calc-page"><header class="header">
+<div class="wrap header-row">
+  <a class="brand" href="/"><img alt="Identidade oficial Emprego Todo Dia Iguatu — portal de empregos e oportunidades" decoding="async" height="90" src="assets/logo-referencia.jpg" width="390"/></a>
+  <nav class="nav" aria-label="Navegação principal"><a href="/">Início</a><a href="/vagas.html">Vagas</a><a href="/editais-ceara.html">Editais Ceará</a><a href="/candidato.html">Sou Candidato</a><a href="/empresa.html">Anunciar vagas</a><a href="/curriculos.html">Currículos</a><a class="active" aria-current="page" href="/calculos-trabalhistas.html">Cálculos Trabalhistas</a><a href="/servicos.html">Serviços</a><a class="nav-publicidade" href="/publicidade-whatsapp.html">📢 Publicidade</a><a href="/contato.html">Contato</a><a href="/whatsapp.html">WhatsApp</a></nav>
+</div>
+</header>
+<div class="etdi-signature" role="note">Emprego Todo Dia Iguatu — <strong>Divulgando oportunidades e conectando pessoas e empresas em Iguatu e região.</strong></div>
+<main class="calc-main" id="conteudo">
+<nav class="calc-breadcrumb" aria-label="Localização da página"><a href="/">Início</a><span aria-hidden="true">›</span><a href="/calculos-trabalhistas.html">Cálculos Trabalhistas</a><span aria-hidden="true">›</span><span aria-current="page">Calculadora completa</span></nav>
+<section class="calc-hero" aria-labelledby="titulo-calculadora">
+  <span class="calc-hero-eyebrow">FERRAMENTA GRATUITA</span>
+  <h1 id="titulo-calculadora">🧮 Calculadora Trabalhista e de Rescisão</h1>
+  <p>Simule férias, 13º salário, horas extras, FGTS e rescisão CLT com as tabelas oficiais de INSS e IRRF vigentes em 2026. Veja cada parcela e desconto estimado.</p>
+  <div class="calc-hero-notes"><span>✓ Tabelas oficiais 2026</span><span>✓ Sem cadastro</span><span>✓ Dados no seu aparelho</span></div>
+</section>
+<section class="calc-legal-2026" aria-label="Atualização da legislação 2026"><div class="calc-legal-head"><span class="calc-year">2026</span><div><strong>Atualizado para as tabelas oficiais de 2026</strong><p>INSS progressivo • IRRF com redução até R$ 7.350 • direitos da CLT. Simulação para empregados CLT comuns, sem substituir contracheque, TRCT ou orientação profissional.</p></div></div><div class="calc-legal-links"><a href="https://www.gov.br/previdencia/pt-br/noticias/2026/janeiro/beneficios-com-valor-acima-do-salario-minimo-sao-reajustados-em-3-9" target="_blank" rel="noopener noreferrer">Tabela INSS 2026 ↗</a><a href="https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026" target="_blank" rel="noopener noreferrer">Tabela IRRF 2026 ↗</a><a href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/proteja/duvidas-frequentes" target="_blank" rel="noopener noreferrer">Direitos na rescisão ↗</a></div></section>
+<section class="calc-panel entry"><div class="calc-step">ETAPA 1 · CONTRATO DE TRABALHO</div><h2>Informações do contrato</h2><p class="calc-hint">Preencha os campos com os dados do trabalhador. Os cálculos são feitos no próprio aparelho, sem envio de dados.</p><div class="calc-grid">
+<div class="calc-field"><label for="salario">Salário bruto mensal (R$) *</label><input id="salario" min="0.01" placeholder="Ex.: 1800.00" step="0.01" type="number"/></div>
+<div class="calc-field"><label for="adicionais">Média mensal de verbas salariais (R$)</label><input id="adicionais" min="0" step="0.01" type="number" value="0"/><span class="calc-help">Ex.: comissões ou adicionais habituais que integram a base.</span></div>
+<div class="calc-field"><label for="jornada">Divisor mensal de horas</label><input id="jornada" min="1" step="1" type="number" value="220"/><span class="calc-help">Ex.: 220 h para jornada de 44 h semanais, conforme o caso.</span></div>
+<div class="calc-field"><label for="admissao">Data de admissão *</label><input id="admissao" type="date"/></div>
+<div class="calc-field"><label for="saida">Último dia trabalhado / data de referência (2026) *</label><input id="saida" type="date"/></div>
+<div class="calc-field"><label for="tipo">Motivo de desligamento</label><select id="tipo"><option value="sem">Demissão sem justa causa</option><option value="indireta">Rescisão indireta reconhecida</option><option value="pedido">Pedido de demissão</option><option value="acordo">Rescisão por acordo (CLT, art. 484-A)</option><option value="justa">Demissão por justa causa</option><option value="prazo">Término normal de contrato por prazo determinado</option><option value="nenhum">Sem rescisão — simular apenas direitos</option></select></div>
+<div class="calc-field"><label for="aviso">Situação do aviso prévio</label><select id="aviso"><option value="indenizado">Indenizado pelo empregador</option><option value="trabalhado">Trabalhado e já remunerado</option><option value="descontado">Não cumprido pelo empregado</option><option value="dispensado">Dispensado sem desconto</option><option value="nao">Não se aplica</option></select></div>
+<div class="calc-field"><label for="saldo">Dias de salário ainda não pagos no mês</label><input id="saldo" max="30" min="0" placeholder="Automático pela data" step="1" type="number"/><span class="calc-help">Use 0 se o mês já foi quitado.</span></div>
+<div class="calc-field"><label for="feriasVencidas">Períodos integrais de férias pendentes</label><input id="feriasVencidas" max="10" min="0" step="1" type="number" value="0"/><span class="calc-help">Informe períodos adquiridos não gozados dentro do prazo. Férias em dobro no próximo campo.</span></div>
+<div class="calc-field"><label for="feriasDobradas">Períodos de férias com pagamento em dobro</label><input id="feriasDobradas" max="10" min="0" step="1" type="number" value="0"/><span class="calc-help">Somente períodos efetivamente fora do prazo concessivo; não repita no campo anterior.</span></div>
+<div class="calc-field"><label for="feriasMarco">Início do período atual de férias</label><input id="feriasMarco" type="date"/><span class="calc-help">Opcional; informe se já houve férias anteriores.</span></div>
+<div class="calc-field"><label for="meses13">Adiantamento do 13º em 2026 (R$)</label><input id="adiant13" min="0" step="0.01" type="number" value="0"/><span class="calc-help">Informe somente adiantamentos ainda não tributados. 13º já quitado exige conferência de retenções.</span></div>
+<div class="calc-field"><label for="dependentes">Dependentes para IRRF (nº)</label><input id="dependentes" min="0" max="30" step="1" type="number" value="0"/><span class="calc-help">Dedução legal de R$ 189,59 por dependente, quando for mais vantajosa que o desconto simplificado.</span></div>
+<div class="calc-field"><label for="fgts">Base de FGTS para multa (R$)</label><input id="fgts" min="0" placeholder="Informe valor do extrato" step="0.01" type="number"/><span class="calc-help">Use a base rescisória correta do extrato, não apenas o saldo disponível.</span></div>
+</div></section>
+<section class="calc-panel entry"><div class="calc-step">ETAPA 2 · HORAS E AJUSTES</div><h2>Horas extras e outros valores</h2><div class="calc-grid">
+<div class="calc-field"><label for="he50">Horas extras a 50%</label><input id="he50" min="0" step="0.5" type="number" value="0"/></div>
+<div class="calc-field"><label for="he100">Horas extras a 100%</label><input id="he100" min="0" step="0.5" type="number" value="0"/></div>
+<div class="calc-field"><label for="outros">Outras verbas salariais tributáveis (R$)</label><input id="outros" min="0" step="0.01" type="number" value="0"/></div>
+<div class="calc-field"><label for="descontos">Outros descontos já conhecidos (R$)</label><input id="descontos" min="0" step="0.01" type="number" value="0"/></div>
+<div class="calc-field"><label for="diasFerias">Dias de férias para simulação isolada</label><input id="diasFerias" max="30" min="1" step="1" type="number" value="30"/></div>
+<div class="calc-field"><label for="mesesFGTS">Meses para FGTS estimado</label><input id="mesesFGTS" min="0" placeholder="Desde a admissão" step="1" type="number"/><span class="calc-help">É uma projeção simples, sem atualização monetária.</span></div>
+</div><p class="calc-minor">As horas extras pontuais são calculadas separadamente e tratadas como salariais para fins estimados de INSS/IRRF. Para reflexos habituais em férias, 13º e rescisão, informe as médias salariais pertinentes no campo de adicionais; evite duplicar valores. Verbas indenizatórias não devem ser inseridas como “outras verbas salariais”.</p></section>
+<section class="calc-panel entry"><div class="calc-actions"><button id="calcular" type="button">Calcular tudo</button><button class="alt" id="limpar" type="button">Limpar formulário</button></div><div class="calc-error" id="erro" role="alert"></div></section>
+<section aria-live="polite" class="calc-panel calc-result" id="resultado"><div class="calc-step">ETAPA 3 · RESULTADO</div><h2>Demonstrativo dos cálculos</h2><div class="calc-summary"><div id="rotuloTotal">Estimativa bruta de acerto</div><strong id="valorTotal">R$ 0,00</strong><span class="calc-minor">Descontos estimados de INSS/IRRF 2026 e outros valores informados; sujeitos a revisão.</span></div><div id="linhas"></div><div class="calc-warning" id="observacoes"></div><div class="calc-actions"><button class="alt" onclick="window.print()" type="button">Imprimir / Salvar em PDF</button></div></section>
+<section class="calc-panel"><h2>Informações importantes</h2><p class="calc-minor">Atualizado com as tabelas oficiais de INSS e IRRF de <strong>2026</strong>. Esta é uma ferramenta educativa que oferece <strong>estimativas</strong> para empregado CLT padrão, não um cálculo oficial ou homologado. Os descontos consideram apenas os rendimentos inseridos neste formulário, sem acumular valores pagos anteriormente no mês, outras fontes pagadoras, retenções anteriores, pensão alimentícia, deduções legais especiais ou situações de aposentados. Pode ser necessário ajustar reflexos de horas extras/DSR, adicionais, faltas, férias em dobro, afastamentos, contratos especiais, normas coletivas, projeção do aviso, correção do FGTS e verbas não informadas. O FGTS e a multa rescisória são exibidos à parte e <strong>não são somados ao dinheiro do acerto</strong>. Confira sempre o TRCT, contracheques e extratos oficiais com o RH, sindicato ou profissional habilitado.</p><p class="calc-minor">Referências: <a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm" rel="noopener" target="_blank">CLT</a> • <a href="https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm" rel="noopener" target="_blank">Lei do FGTS</a> • <a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12506.htm" rel="noopener" target="_blank">Lei do Aviso Prévio</a> • <a href="https://www.gov.br/previdencia/pt-br/noticias/2026/janeiro/beneficios-com-valor-acima-do-salario-minimo-sao-reajustados-em-3-9" target="_blank" rel="noopener noreferrer">Tabela INSS 2026</a> • <a href="https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026" target="_blank" rel="noopener noreferrer">Tabela IRRF 2026</a> • <a href="https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/malha-fiscal/antecipacao/rendimentos-recebidos-de-empresa/fui-demitido" target="_blank" rel="noopener noreferrer">Tributação na rescisão</a>.</p></section>
+</main>
+<footer class="calc-footer">
+  <nav aria-label="Links complementares"><a href="/">← Voltar ao início</a><a href="/calculos-trabalhistas.html">Cálculos Trabalhistas</a><a href="/politica-de-privacidade.html">Privacidade</a></nav>
+  <span>Emprego Todo Dia Iguatu • Ferramenta educativa gratuita. Resultados estimados.</span>
+</footer>
+<script>
+ 'use strict';
+// Simulador CLT para desligamentos no ano-calendário de 2026. Não substitui TRCT ou cálculo de folha.
+const $=id=>document.getElementById(id);
+const num=id=>Number($(id).value||0);
+const money=n=>Math.round((n+Number.EPSILON)*100)/100;
+const brl=n=>(Number.isFinite(n)?n:0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+function dateInput(id){const s=$(id).value;if(!s)return null;const [y,m,day]=s.split('-').map(Number);return new Date(y,m-1,day,12)}
+function addDays(d,n){const a=new Date(d);a.setDate(a.getDate()+n);return a}
+function daysBetween(a,b){return Math.round((b-a)/86400000)}
+function fullYears(a,b){let y=b.getFullYear()-a.getFullYear();if(b.getMonth()<a.getMonth()||(b.getMonth()===a.getMonth()&&b.getDate()<a.getDate()))y--;return Math.max(0,y)}
+function addMonthsClamped(a,n){const y=a.getFullYear(),m=a.getMonth()+n;const last=new Date(y,m+1,0,12).getDate();return new Date(y,m,Math.min(a.getDate(),last),12)}
+// Fração de 15 dias ou mais do período aquisitivo = 1/12 das férias proporcionais.
+function vacationTwelfths(begin,end){if(begin>end)return 0;let n=0,at=new Date(begin);while(n<12){const next=addMonthsClamped(begin,n+1);if(next<=addDays(end,1)){n++;at=next}else break}if(n<12&&daysBetween(at,end)+1>=15)n++;return Math.min(12,n)}
+// 13º: mês do calendário com pelo menos 15 dias trabalhados = 1/12; contempla projeção do aviso.
+function thirteenTwelfths(admission,exit,projected){let count=0;const start=new Date(exit.getFullYear(),0,1,12);for(let y=start.getFullYear();y<=projected.getFullYear();y++){for(let m=0;m<12;m++){const first=new Date(y,m,1,12),last=new Date(y,m+1,0,12);if(first>projected)break;const from=admission>first?admission:first,to=projected<last?projected:last;if(from<=to&&daysBetween(from,to)+1>=15)count++}}return count}
+const INSS2026=[[1621.00,0.075],[2902.84,0.09],[4354.27,0.12],[8475.55,0.14]];
+const IR2026=[[2428.80,0,0],[2826.65,0.075,182.16],[3751.05,0.15,394.16],[4664.68,0.225,675.49],[Infinity,0.275,908.73]];
+function inss2026(gross){let rem=Math.min(Math.max(0,gross),8475.55),previous=0,result=0;for(const [cap,rate] of INSS2026){const slice=Math.max(0,Math.min(rem,cap)-previous);result+=slice*rate;previous=cap;if(rem<=cap)break}return money(result)}
+function irrf2026(gross,inss,dependents){if(gross<=0)return {value:0,base:0,reduction:0};const legal=inss+dependents*189.59;const deduction=Math.max(legal,607.20);const base=Math.max(0,money(gross-deduction));let before=0;for(const [limit,rate,subtract] of IR2026){if(base<=limit){before=money(Math.max(0,base*rate-subtract));break}}let reduction=0;if(gross<=5000)reduction=Math.min(before,312.89);else if(gross<=7350)reduction=Math.min(before,Math.max(0,money(978.62-0.133145*gross)));return {value:money(Math.max(0,before-reduction)),base,reduction:money(reduction)} }
+function row(name,value){const div=document.createElement('div');div.className='rowline';const a=document.createElement('span'),b=document.createElement('span');a.textContent=name;b.textContent=typeof value==='number'?brl(value):value;div.append(a,b);$('linhas').append(div)}
+function warn(message){const p=document.createElement('p');p.textContent=message;$('observacoes').append(p)}
+function fail(message){$('erro').textContent=message;$('resultado').classList.remove('show')}
+function calc(){
+ $('erro').textContent='';const adm=dateInput('admissao'),saida=dateInput('saida'),sal=num('salario'),extrasMensais=num('adicionais'),divisor=num('jornada'),tipo=$('tipo').value,aviso=$('aviso').value;
+ const required=['adicionais','feriasVencidas','feriasDobradas','adiant13','dependentes','he50','he100','outros','descontos','diasFerias'];
+ if(!adm||!saida||saida<adm||sal<=0||divisor<=0)return fail('Informe salário positivo, divisor e datas válidas de admissão e saída.');
+ if(saida.getFullYear()!==2026)return fail('Esta versão calcula os descontos conforme as tabelas de 2026. Para evitar valores incorretos, informe uma data de referência em 2026.');
+ if(required.some(id=>!Number.isFinite(num(id))||num(id)<0)||num('feriasVencidas')>10||num('feriasDobradas')>10||!Number.isInteger(num('feriasVencidas'))||!Number.isInteger(num('feriasDobradas'))||!Number.isInteger(num('dependentes'))||num('dependentes')>30||num('diasFerias')<1||num('diasFerias')>30)return fail('Revise os campos: dias de férias (1 a 30), dependentes (0 a 30) e períodos de férias inteiros.');
+ const base=sal+extrasMensais,hora=base/divisor,anos=fullYears(adm,saida),diasAviso=Math.min(90,30+anos*3),comAviso=tipo==='sem'||tipo==='indireta'||tipo==='acordo';let projecao=saida,avisoPago=0,descontoAviso=0,avisodiasExibidos=0;
+ if(comAviso&&aviso==='indenizado'){avisodiasExibidos=tipo==='acordo'?diasAviso/2:diasAviso;avisoPago=money(base*avisodiasExibidos/30);projecao=addDays(saida,Math.ceil(avisodiasExibidos))}
+ if(tipo==='pedido'&&aviso==='descontado')descontoAviso=base;
+ const marcoInput=dateInput('feriasMarco');if(marcoInput&&(marcoInput<adm||marcoInput>projecao))return fail('O início do período atual de férias deve estar entre admissão e data final projetada.');
+ let marco=marcoInput||new Date(adm);if(!marcoInput){let safety=0;while(safety++<80){const next=new Date(marco);next.setFullYear(next.getFullYear()+1);if(next>projecao)break;marco=next}}
+ const avFerias=vacationTwelfths(marco,projecao),av13=thirteenTwelfths(adm,saida,projecao),adiant13=num('adiant13');
+ const feriasProporcionais=money(base*avFerias/12*4/3),feriasIntegrais=money(base*num('feriasVencidas')*4/3),feriasDobro=money(2*base*num('feriasDobradas')*4/3),decimoAcumulado=money(base*av13/12);
+ if(adiant13>decimoAcumulado)return fail('O adiantamento do 13º informado não pode superar o 13º acumulado estimado. Confira os dados.');
+ const brutoDecimo=money(decimoAcumulado-adiant13);
+ const raw=$('saldo').value.trim(),diasSaldo=raw===''?Math.min(30,saida.getDate()):num('saldo');if(!Number.isInteger(diasSaldo)||diasSaldo<0||diasSaldo>30)return fail('Informe de 0 a 30 dias inteiros no saldo de salário.');
+ const saldo=money(base*diasSaldo/30),he50=money(hora*1.5*num('he50')),he100=money(hora*2*num('he100')),horas=money(he50+he100),outros=num('outros'),rescinde=tipo!=='nenhum',prop=tipo!=='justa';
+ const pagoSaldo=rescinde?saldo:0,pagoFerias=rescinde?feriasIntegrais+feriasDobro:0,pagoProp=rescinde&&prop?feriasProporcionais:0,pago13=rescinde&&prop?brutoDecimo:0,pagoAviso=rescinde?avisoPago:0;
+ const totalBruto=money(pagoSaldo+pagoFerias+pagoProp+pago13+pagoAviso+horas+outros),outrosDescontos=num('descontos');
+ // INSS e IRRF na folha de rescisão: saldo + horas extras + outras verbas declaradas salariais, sem aviso/férias indenizadas.
+ const salTributavel=money(pagoSaldo+horas+outros),inssSal=rescinde?inss2026(salTributavel):inss2026(base),irSal=irrf2026(rescinde?salTributavel:base,inssSal,num('dependentes'));
+ // O 13º é tributado isoladamente. O valor informado como já recebido é adiantamento, não quitação tributada.
+ const inss13=rescinde&&prop?inss2026(decimoAcumulado):0,ir13=rescinde&&prop?irrf2026(decimoAcumulado,inss13,num('dependentes')):{value:0,base:0,reduction:0};
+ const totalTributos=money(inssSal+(rescinde?irSal.value:0)+inss13+ir13.value);
+ const descontos=money(descontoAviso+outrosDescontos+totalTributos),liquido=money(totalBruto-descontos);
+ const mesesFgts=$('mesesFGTS').value.trim()===''?Math.max(0,Math.round((saida-adm)/(86400000*30.44))):num('mesesFGTS');if(mesesFgts<0||!Number.isInteger(mesesFgts))return fail('Informe meses inteiros e não negativos para a estimativa de FGTS.');
+ const fgtsMensal=money(base*0.08),fgtsProjetado=money(fgtsMensal*mesesFgts),baseMulta=$('fgts').value.trim()!==''?num('fgts'):null;
+ if(baseMulta!==null&&(!Number.isFinite(baseMulta)||baseMulta<0))return fail('Revise a base rescisória de FGTS informada.');
+ const percMulta=(tipo==='sem'||tipo==='indireta')?0.40:tipo==='acordo'?0.20:0,multa=baseMulta===null?null:money(baseMulta*percMulta);
+ $('linhas').replaceChildren();$('observacoes').replaceChildren();row('— REFERÊNCIAS DA SIMULAÇÃO —','');row('Salário mensal informado',sal);row('Remuneração de referência com médias',base);row('Valor estimado da hora normal',hora);row('Horas extras a 50%',he50);row('Horas extras a 100%',he100);row('Férias isoladas ('+num('diasFerias')+' dias) + 1/3',money(base*num('diasFerias')/30*4/3));row('13º acumulado estimado ('+av13+'/12)',decimoAcumulado);row('FGTS mensal estimado, alíquota CLT normal de 8%',fgtsMensal);row('FGTS acumulado projetado sem correções',fgtsProjetado);
+ if(rescinde){row('— VERBAS ESTIMADAS NA RESCISÃO —','');row('Saldo de salário ('+diasSaldo+' dias)',pagoSaldo);row('Aviso prévio indenizado ('+avisodiasExibidos+' dias)',pagoAviso);row('13º proporcional a receber ('+av13+'/12, adiantamento abatido)',pago13);row('Férias proporcionais ('+avFerias+'/12) + 1/3',pagoProp);row('Férias integrais não gozadas + 1/3',feriasIntegrais);row('Férias em dobro informadas + 1/3',feriasDobro);row('Horas extras informadas (sem reflexos)',horas);row('Outras verbas salariais tributáveis',outros);row('TOTAL BRUTO estimado em dinheiro',totalBruto);row('— DESCONTOS ESTIMADOS (TABELAS 2026) —','');row('INSS sobre parcelas salariais',inssSal?-inssSal:0);row('IRRF 2026 sobre parcelas salariais',irSal.value?-irSal.value:0);row('Redução de IRRF aplicada (informativa)',irSal.reduction);row('INSS separado sobre 13º',inss13?-inss13:0);row('IRRF separado sobre 13º',ir13.value?-ir13.value:0);row('Redução do IRRF do 13º (informativa)',ir13.reduction);row('Desconto de aviso não cumprido',descontoAviso?-descontoAviso:0);row('Outros descontos informados',outrosDescontos?-outrosDescontos:0);row('TOTAL LÍQUIDO APROXIMADO',liquido);if(percMulta){row('Multa FGTS ('+(percMulta*100)+'%) — fora do acerto',multa===null?'Informe a base do extrato':brl(multa))}else row('Multa rescisória de FGTS','Não se aplica nesta modalidade');$('rotuloTotal').textContent='Acerto líquido aproximado • CLT 2026';$('valorTotal').textContent=brl(liquido)}else{row('— SIMULAÇÃO MENSAL • TABELAS 2026 —','');row('Remuneração mensal considerada para tributos',base);row('INSS progressivo 2026',inssSal?-inssSal:0);row('IRRF estimado 2026',irSal.value?-irSal.value:0);row('Redução do IRRF aplicada (informativa)',irSal.reduction);row('Líquido mensal estimado sem outros descontos',money(base-inssSal-irSal.value));row('Horas extras avulsas (não incluídas no líquido acima)',horas);row('Férias proporcionais acumuladas + 1/3',feriasProporcionais);row('13º proporcional acumulado',decimoAcumulado);$('rotuloTotal').textContent='Salário líquido mensal estimado • 2026';$('valorTotal').textContent=brl(money(base-inssSal-irSal.value))}
+ warn('Cálculo educativo com tabelas INSS/IRRF de 2026. INSS/IRRF são estimativas: não considera outros pagamentos no mesmo mês, outros vínculos, deduções especiais, retenções anteriores, pensão alimentícia ou descontos de convenção coletiva. Férias e aviso indenizados não foram incluídos na base desses tributos.');
+ if(!marcoInput)warn('O início do período atual de férias foi inferido por aniversários da data de admissão. Revise períodos já usufruídos, afastamentos e alterações no período aquisitivo.');
+ if(adiant13>0)warn('O 13º informado como já recebido foi tratado como ADIANTAMENTO sem retenções. Se ele já foi quitado e tributado, o cálculo de INSS/IRRF do 13º pode não representar a rescisão real.');
+ if(projecao.getFullYear()>2026)warn('A projeção do aviso alcança 2027; o cálculo tributário foi simulado com parâmetros de 2026. Verifique o ano do pagamento e os cálculos oficiais.');
+ if(baseMulta===null&&percMulta)warn('A multa do FGTS não foi calculada por falta da base rescisória. Use o valor para fins rescisórios do extrato, não o saldo disponível nem o FGTS projetado.');
+ if(tipo==='acordo')warn('Acordo (art. 484-A): aviso indenizado pela metade, multa FGTS de 20%, saque de até 80% dos depósitos conforme regras; sem seguro-desemprego. Projeção de aviso é simplificada.');
+ if(tipo==='indireta')warn('Rescisão indireta: direitos equivalentes à dispensa sem justa causa dependem do reconhecimento válido e das circunstâncias do caso.');
+ if(tipo==='justa')warn('Justa causa: saldo salarial e férias adquiridas pendentes; férias proporcionais, 13º proporcional e multa FGTS não entram nesta hipótese padrão.');
+ if(tipo==='prazo')warn('Término normal de contrato por prazo determinado não inclui aviso prévio ou multa de 40%. Rescisão antecipada e cláusula assecuratória seguem regras diferentes.');
+ if(tipo==='pedido')warn('Pedido de demissão: aviso pode ser descontado se não cumprido; não há multa rescisória FGTS ou seguro-desemprego.');
+ if(aviso==='indenizado'&&!comAviso)warn('O aviso indenizado foi ignorado porque não corresponde à modalidade escolhida.');
+ if(tipo==='nenhum')warn('Modo sem rescisão: férias e 13º são direitos acumulados apenas para orientação; o salário líquido considera a remuneração mensal informada.');
+ warn('FGTS mensal projetado considera 8% da base mensal e não inclui automaticamente depósitos de 13º, indenizações legais, correções ou todas as alterações salariais. Não corresponde necessariamente ao saldo do extrato.');
+ $('resultado').classList.add('show');$('resultado').scrollIntoView({behavior:'smooth',block:'start'});
+}
+$('calcular').addEventListener('click',calc);
+$('limpar').addEventListener('click',()=>{document.querySelectorAll('.calc-main input').forEach(e=>e.value='');for(const [id,value] of Object.entries({adicionais:0,jornada:220,feriasVencidas:0,feriasDobradas:0,adiant13:0,dependentes:0,he50:0,he100:0,outros:0,descontos:0,diasFerias:30}))$(id).value=value;$('tipo').value='sem';$('aviso').value='indenizado';$('erro').textContent='';$('resultado').classList.remove('show');scrollTo({top:0,behavior:'smooth'})});
+
+</script></body></html>
