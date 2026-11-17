@@ -1,0 +1,19 @@
+V167 - PACOTE COMPLETO PARA GITHUB + VERCEL
+
+1. EXTRAIA este ZIP no seu computador. Nao envie o ZIP fechado para o GitHub.
+2. No repositorio github.com/empregotododiaiguatu/emprego (branch main), envie TODOS os arquivos e a pasta assets/ mantendo a estrutura original.
+3. Confira que o GitHub mostra assets/site.css, assets/vagas-data.js, assets/cadastro-contador.js, assets/cadastro-privacidade-v129.css.
+4. Confirme o commit diretamente na branch main. Aguarde a implantacao de producao na Vercel ficar Ready.
+5. Confira as URLs:
+   https://www.empregotododiaiguatu.com.br/assets/site.css
+   https://www.empregotododiaiguatu.com.br/assets/vagas-data.js
+   https://www.empregotododiaiguatu.com.br/vagas.html
+   https://www.empregotododiaiguatu.com.br/vagas
+   https://www.empregotododiaiguatu.com.br/ads.txt
+   https://www.empregotododiaiguatu.com.br/sitemap.xml
+
+ATENCAO: assets.rar ou ZIP armazenado no repositorio nao e extraido automaticamente pela Vercel.
+Mudancas V167: vagas.html usa /vagas.html como URL de pesquisa e mostra aviso caso JS do catalogo nao carregue.
+Os demais arquivos de V166 foram preservados integralmente.
+AdSense, ads.txt, sitemap, robots.txt, CSS, JS, imagens e conteudo editorial preservados.
+O pacote foi conferido localmente; a implantacao publica precisa ser testada apos o upload.
